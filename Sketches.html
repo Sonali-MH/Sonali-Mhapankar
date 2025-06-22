@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Portflio</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url("./assets/images/Bg.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+    }
+
+    .header {
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .header-left h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    .header-right table {
+      width: auto;
+    }
+
+    .header-right td {
+      padding: 0 10px;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      background-color: antiquewhite;
+      padding: 20px;
+    }
+
+    .card {
+      grid-column: span 2;
+      background-color: antiquewhite;
+      padding: 10px;
+    }
+
+    .card h3 {
+      margin: 0;
+    }
+
+    .sketch-box {
+      padding: 20px;
+      border-radius: 30px;
+      color: white;
+    }
+
+    .first { background-color: blue; text-align: right;}
+    .second { background-color: yellow; color: black; }
+    .third { background-color: rebeccapurple; text-align: right; }
+    .fourth { background-color: palevioletred; color: black;}
+    .fifth { background-color: lightgreen; text-align: right; }
+    .sixth { background-color: lightblue; color: black; }
+
+    .blank {
+      background-color: antiquewhite;
+    }
+
+    .img {
+      width: 100%;
+      height: auto;
+    }
+  </style>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <div class="header">
+    <div class="header-left">
+      <a href="./index.html"><img src="./assets/images/Home.png" height="25" width="25"></a>
+      <h1>Sonali Ramchandra Mhapankar</h1>
+    </div>
+    <div class="header-right">
+      <table>
+        <tr>
+          <td><a href="public/about.html"><b>About</b></a></td>
+          <td><a href="./Projects.html"><b>Projects</b></a></td>
+          <td><a href="./Sketches.html"><b>Sketches</b></a></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="grid-container";>
+    <div class="card">
+      <h3>Below are some sketches done by me:</h3>
+      <p>These hand-drawn sketches are of my office people like our CEO, my manager, and some of the HR team members.</p>
+    </div>
+
+    <div class="blank"></div>
+
+    <div class="sketch-box first">
+      <h3>CEO - Pankaj Aher</h3>
+      <img src="./assets/images/Pankaj.png" alt="Sketch of Pankaj Aher" width="100%">
+    </div>
+
+    <div class="sketch-box second">
+      <h3>VP Product / My Manager - Nilesh Chudasama</h3>
+      <img src="./assets/images/Nilesh.png" alt="Sketch of Nilesh" width="100%">
+    </div>
+
+    <div class="blank"></div>
+    <div class="blank"></div>
+
+    <div class="sketch-box third">
+      <h3>Vice President - Neeta Mendon</h3>
+      <img src="./assets/images/Neeta.png" alt="Sketch of Neeta" width="100%">
+    </div>
+
+    <div class="sketch-box fourth">
+      <h3>Asst. Manager (HR & Admin) - Prajna Panda</h3>
+      <img src="./assets/images/Prajna.png" alt="Sketch of Prajna" width="100%">
+    </div>
+
+    <div class="blank"></div>
+    <div class="blank"></div>
+
+    <div class="sketch-box fifth">
+      <h3>Company Secretary - Rashmi Jhurani</h3>
+      <img src="./assets/images/Rashmi.png" alt="Sketch of Rashmi" width="100%">
+    </div>
+
+    <div class="sketch-box sixth">
+      <h3>Associate Technology - Vishal Patekar & his wife</h3>
+      <img src="./assets/images/Vishal.png" alt="Sketch of Vishal" width="100%">
+    </div>
+
+    <div class="blank"></div>
+  </div>
+
+<Div style="background-color: black; padding: 20px;">
+  <footer>
+  <Table style="width: 100%">
+    <tr> 
+      <td style="text-align: left"><a href="public/about.html" style="color: white; text-decoration: none;"><b>About Me</b></a></td>
+      <td style="text-align: right"><a href="https://www.linkedin.com/in/sonali-mhapankar-3b6613250"><img src="./assets/images/LinkedIn.png" height="30" width="30"></a></td>
+    </tr>
+    <tr>
+    <td style="text-align: left"><a href="public/contact.html" style="color: white; text-decoration: none;"><b>Contact Me</b></a></td>
+    <td style="text-align: right"><a href="https://x.com/Sona_mhapankar9?t=ijF7OrXrvQGa0ooc1eybCA&s=08"><img src="./assets/images/X.png" height="30" width="30"></a></td>
+  </tr>
+  </Table>
+  </footer>
+</Div>
+
+</body>
+</html>
